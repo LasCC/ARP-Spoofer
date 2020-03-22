@@ -54,4 +54,4 @@ try:
 except KeyboardInterrupt:
     restore_default(options.target_ip, options.gateway)
     restore_default(options.gateway, options.target_ip)
-    print("\n[/!\] Quit - Restoring APR tables..")
+    print("\n[/!\] Quit - Restoring ARP tables..")
